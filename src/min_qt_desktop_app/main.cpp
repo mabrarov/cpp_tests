@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
 {
   try
   {
-    QApplication application(argc, argv);    
+    QApplication application(argc, argv);
     ma::cpp_tests::min_qt_desktop_app::MainForm mainForm;
     mainForm.show();
     return application.exec();

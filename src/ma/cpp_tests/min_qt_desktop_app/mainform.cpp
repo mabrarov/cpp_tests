@@ -16,7 +16,7 @@ namespace cpp_tests {
 namespace min_qt_desktop_app {
 
 MainForm::MainForm(QWidget* parent, Qt::WindowFlags flags)
-  : QWidget(parent, flags)  
+  : QWidget(parent, flags)
 {
   ui_.setupUi(this);
 }
