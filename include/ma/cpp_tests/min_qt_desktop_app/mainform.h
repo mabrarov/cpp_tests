@@ -27,13 +27,10 @@ public:
   MainForm(QWidget* parent = 0, Qt::WindowFlags flags = 0);
   ~MainForm();
 
-public slots:
-
 private slots:
-  
 
-private:  
-  Ui::mainForm ui_;  
+private:
+  Ui::mainForm ui_;
 }; // class MainForm
 
 } // namespace min_qt_desktop_app

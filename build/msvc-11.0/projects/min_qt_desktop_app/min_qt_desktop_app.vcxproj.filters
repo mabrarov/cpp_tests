@@ -49,16 +49,6 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-    <Filter Include="Generated Files\Test_Win32">
-      <UniqueIdentifier>{b8eca29f-7baf-41ee-97cd-3813cfffed44}</UniqueIdentifier>
-      <Extensions>cpp;moc</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
-    </Filter>
-    <Filter Include="Generated Files\Test_x64">
-      <UniqueIdentifier>{b94b03fb-31d6-4483-a4e3-e316ec8b65da}</UniqueIdentifier>
-      <Extensions>cpp;moc</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
-    </Filter>
     <Filter Include="Generated Files\Win32">
       <UniqueIdentifier>{9a8700f1-9440-4192-8d8d-bb1823daeff9}</UniqueIdentifier>
     </Filter>
@@ -133,14 +123,8 @@
     <ClCompile Include="GeneratedFiles\Debug_static\x64\moc_mainform.cpp">
       <Filter>Generated Files\Debug_static_x64</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Test\Win32\moc_mainform.cpp">
-      <Filter>Generated Files\Test_Win32</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug_static\Win32\moc_mainform.cpp">
       <Filter>Generated Files\Debug_static_Win32</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Test\x64\moc_mainform.cpp">
-      <Filter>Generated Files\Test_x64</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

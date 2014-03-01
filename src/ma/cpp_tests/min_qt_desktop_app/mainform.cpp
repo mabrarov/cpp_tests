@@ -1,5 +1,5 @@
 /*
-TRANSLATOR ma::cpp_tests::min_qt_desktop_app
+TRANSLATOR ma::cpp_tests::min_qt_desktop_app::MainForm
 */
 
 //
