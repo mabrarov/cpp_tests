@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\ma">
+      <UniqueIdentifier>{38a36d43-46a9-4c1c-8c1e-0db17a8f5ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ma">
+      <UniqueIdentifier>{6030b89b-c8eb-46d8-bff3-7f191d0434a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{80934149-1714-43f4-9e57-7f2b2b8989d5}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{22390df8-4455-425e-9cc4-7b1d1a0923b7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{8f5ccceb-2fe0-402f-a754-a2b0beaf3180}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{48bfa514-8e93-4483-baa8-47f39a5b9254}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Win32">
+      <UniqueIdentifier>{9a8700f1-9440-4192-8d8d-bb1823daeff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\x64">
+      <UniqueIdentifier>{90a532fa-1c67-4d17-8ea3-470845c1be75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug_static_x64">
+      <UniqueIdentifier>{274c7fd1-26b2-4e2d-a804-ba4c70f85d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Release_static_Win32">
+      <UniqueIdentifier>{f99ef5c0-ede5-44c3-9e1e-541eadf94682}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_static_x64">
+      <UniqueIdentifier>{5d4c154c-ce2e-4021-bcf4-3786a3627ed0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_static_Win32">
+      <UniqueIdentifier>{922701c9-1a62-447e-987c-3cd5e67c9940}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\ma">
+      <UniqueIdentifier>{f0e25d19-4e6c-4746-ae62-23c56261152d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\ma\cpp_tests">
+      <UniqueIdentifier>{de7df5d8-044e-4636-be87-fc8a58ebca54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\ma\cpp_tests\min_qt_desktop_app">
+      <UniqueIdentifier>{1500fee6-bfdb-4172-b2a2-a9ef0df2e75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ma\cpp_tests">
+      <UniqueIdentifier>{f221e6e4-1e5d-46df-9294-47688cc1ad81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ma\cpp_tests\min_qt_desktop_app">
+      <UniqueIdentifier>{9425555e-4c11-42a0-a51f-cd76feadd303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ma\cpp_tests">
+      <UniqueIdentifier>{0d944334-b8aa-4e55-a069-ff39f610a898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ma\cpp_tests\min_qt_desktop_app">
+      <UniqueIdentifier>{969f94f4-b917-4fbd-8ca0-49c408a76758}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\min_qt_desktop_app\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\ma\cpp_tests\min_qt_desktop_app\mainform.cpp">
+      <Filter>Source Files\ma\cpp_tests\min_qt_desktop_app</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\Win32\moc_mainform.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\x64\moc_mainform.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\Win32\moc_mainform.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\x64\moc_mainform.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_static\x64\moc_mainform.cpp">
+      <Filter>Generated Files\Release_static_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_static\Win32\moc_mainform.cpp">
+      <Filter>Generated Files\Release_static_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug_static\x64\moc_mainform.cpp">
+      <Filter>Generated Files\Debug_static_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug_static\Win32\moc_mainform.cpp">
+      <Filter>Generated Files\Debug_static_Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\include\ma\cpp_tests\min_qt_desktop_app\mainform.h">
+      <Filter>Header Files\ma\cpp_tests\min_qt_desktop_app</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\src\ma\cpp_tests\min_qt_desktop_app\mainform.ui">
+      <Filter>Form Files\ma\cpp_tests\min_qt_desktop_app</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\src\min_qt_desktop_app\min_qt_desktop_app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\src\min_qt_desktop_app\min_qt_desktop_app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\Win32\ui_mainform.h">
+      <Filter>Generated Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\x64\ui_mainform.h">
+      <Filter>Generated Files\x64</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
