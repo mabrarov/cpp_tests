@@ -460,6 +460,7 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug_static|Win32'">Uic%27ing %(Identity)...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|Win32'">.\GeneratedFiles\$(PlatformName)\ui_%(Filename).h;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\$(PlatformName)\ui_%(Filename).h" "%(FullPath)"</Command>
+      <SubType>Designer</SubType>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -481,7 +482,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)\$(PlatformName)" UicDir=".\GeneratedFiles\$(PlatformName)" RccDir=".\GeneratedFiles\$(PlatformName)" lupdateOnBuild="0" Qt5Version_x0020_Win32="5.2.1 shared" Qt5Version_x0020_x64="5.2.1 shared x64" MocOptions="" />
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)\$(PlatformName)" UicDir=".\GeneratedFiles\$(PlatformName)" RccDir=".\GeneratedFiles\$(PlatformName)" lupdateOnBuild="0" Qt5Version_x0020_Win32="5.2.1 shared" Qt5Version_x0020_x64="5.3.1 shared x64" MocOptions="" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
